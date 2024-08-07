@@ -32,12 +32,49 @@ Comme montré dans l'image :
 
 ## Partie 3) L'Interface de Creo
 
-Dans cette partie, nous allons nous familiariser avec l'interface de Creo et l'emplacement des fonctions dont nous verrons le fonctionnement plus tard.
+Ici, je vais donner la liste et l'emplacement dans Creo 9 des fonctions importantes à connaître et que l'on utilise le plus. Même si vous allez voir pas mal de critiques envers Creo dans ce guide, il faut quand même admettre que ce logiciel de CAO a beaucoup de fonctions et permet aux personnes qui le maîtrisent entièrement de réaliser de véritables chefs-d'œuvre. Mais pour être honnête, personne n'a envie de découvrir autant Creo (y compris moi). C'est pourquoi vous aurez les fonctions strictement nécessaires à notre niveau (c'est-à-dire pas d'étude de résistance et d'élasticité des matériaux, de propriétés aérodynamiques de nos pièces et encore moins des sculptures de type Blender, car ce n'est pas vraiment utile pour notre projet).
+
 ### a) L'Arbre de navigation 
 L'Arbre de navigation se trouve à notre gauche, comme dans l'image : 
  <p align="center"><img alt="Arbre de navigation" src="img/6.png"  width="80%"></p> <br/>
-Ici on va retrouver les noms de toutes les opérations et fonctions appliquées sur la pièce ou la liste de toutes les pièces dans les assemblages.
-L'Arbre de navigation est manipulable et c'est un sort de trace de vos fonctions que vous pouvez manipuler et l'application vas tout recalculer 
+Ici, on va retrouver les noms de toutes les opérations et fonctions appliquées sur la pièce, ou la liste de toutes les pièces dans les assemblages. L'Arbre de navigation est manipulable, c'est une sorte de trace de vos fonctions que vous pouvez manipuler et l'application va tout recalculer. Vous pouvez bouger la ligne verte afin de masquer les dernières modifications et de "revenir dans le temps". C'est utile quand vous voulez ajouter des modifications post factum sans tout refaire.
+On va s'en servir également quand il faudra choisir un élément de la pièce ou de l'assemblage (ex. plans, axes, origines, sous-assemblages, etc.).
+Dans une ficher vide, on a quand même notre origine et les plans de Right (vue de profile), Top (vue de dessus) et Front (vue de face) qui sont la base de notre pièce ou de l'assemblage.
+### b) Modèle
+Dans la partie modèle, on a nos fonctionnalités clés, qui sont entourées dans l'image :
+
+ <p align="center"><img alt="Arbre de navigation" src="img/7.png"  width="80%"></p> <br/>
+
+**Surlignées en Vert :**
+  - Plans : permet de créer des plans quelconques, quand l'orientation ou l'emplacement des plans de base ne suffisent pas
+  - Axe : permet de créer des axes, pour faire des rotations ou des alignements autour de ces axes
+  - Esquisse : faire une esquisse sur un plan pour ensuite ajouter ou enlever de la matière suivant cette esquisse (la base de la base !)
+  - Extrusion et Révolution : des fonctions jumelles qui rendent nos esquisses en 3D, où :
+    - L'Extrusion fait cela en projection rectiligne
+    - La Révolution le fait en tournant autour d'un axe
+
+**Surlignées en Rouge :**
+  - Arrondi et Chanfrein : une autre paire de fonctions de même idée, qui ont pour but principal de rendre notre modèle plus solide, où :
+    - Arrondi : comme son nom l'indique, arrondit les angles en y ajoutant (ou en enlevant) de la matière
+    - Chanfrein : un peu la même idée que l'arrondi, mais au lieu de quelque chose de rond, on ajoute (ou enlève) un angle plat
+
+**Surlignées en Bleu :**
+
+  - Répétition : sert à répliquer plusieurs fois les autres fonctions (on peut faire des répétitions de tout, même des répétitions de répétitions)
+  - Symétrie : sert à simplement faire une réplique en miroir selon un plan (très utile pour les pièces symétriques)
+
+**Surlignées en Violet :**
+
+  - L'Ombrage : rend les pièces mieux visibles, quand vous lancez Creo, il suffit de choisir l'option 2 "L'ombrage avec des arêtes"
+  - Affichage : permet de cacher les plans, les axes, les origines et les points ; il va falloir tout cacher pour les grands assemblages, sinon on ne voit rien
+
+
+
+
+
+
+
+
 
 
 
