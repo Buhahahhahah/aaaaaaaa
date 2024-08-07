@@ -100,7 +100,7 @@ Dans cette partie, on a l'artillerie lourde que j'ai l'ambition de mettre en pla
 **Cas particulier pour l'Assemblage :**
 Dans les assemblages, on retrouve dans cette fenêtre une fonction expérimentale (même l'auteur de ce guide ne la maîtrise pas comme il faut) :
   - Câblage : permet de modéliser les câbles beaucoup plus agilement
-
+ <br/><p align="center"><img alt="Câblage" src="img/12.png"  width="80%"></p> <br/>
 
 
 
