@@ -26,5 +26,22 @@ On laisse les selections de "pièce", "solide" sans modifications et dans "Nom d
 
 Une fois le fichier créé, il faut l'enregistrer. Il faut cliquer sur "fichier" en haut à gauche, puis sur "enregistrer" ou simplement faire "ctrl + s" (à favoriser car c'est simplement plus pratique). Normalement il va vous mettre automatiquement dans votre répertoire de travail. 
 Maintenant, pour ouvrir une autre ficher, dans la même destination : "fichier" on click "ouvrir" et on choisit le ficher dans la liste. 
+
 Comme montré dans l'image : 
  <p align="center"><img alt="Ouvrir un fichier" src="img/5.png"  width="80%"></p> <br/>
+
+## Partie 3) L'Interface de Creo
+
+Dans cette partie, nous allons nous familiariser avec l'interface de Creo et l'emplacement des fonctions dont nous verrons le fonctionnement plus tard.
+### a) L'Arbre de navigation 
+L'Arbre de navigation se trouve à notre gauche, comme dans l'image : 
+ <p align="center"><img alt="Arbre de navigation" src="img/6.png"  width="80%"></p> <br/>
+Ici on va retrouver les noms de toutes les opérations et fonctions appliquées sur la pièce ou la liste de toutes les pièces dans les assemblages.
+L'Arbre de navigation est manipulable et c'est un sort de trace de vos fonctions que vous pouvez manipuler et l'application vas tout recalculer 
+
+
+
+
+
+
+
