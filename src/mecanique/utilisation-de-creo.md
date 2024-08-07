@@ -70,24 +70,36 @@ Dans la partie modèle, on a nos fonctionnalités clés, qui sont entourées dan
   - L'Ombrage : rend les pièces mieux visibles, quand vous lancez Creo, il suffit de choisir l'option 2 "L'ombrage avec des arêtes"
   - Affichage : permet de cacher les plans, les axes, les origines et les points ; il va falloir tout cacher pour les grands assemblages, sinon on ne voit rien
 
+ **Cas particulier pour l'Assemblage :**
+Cette fenêtre est un peu modifiée pour les assemblages et on y retrouve une fonction cruciale :
+  - Assembler : permet d'ajouter, une par une, les pièces dans l'assemblage afin de voir la totalité du système ensemble
+ <br/><p align="center"><img alt="Assembler" src="img/8.png"  width="80%"></p> <br/>
+
 ### c) Analyse
 
 Drôlement, la seule fonction qu'on utilise ici c'est la "Mesurer", la règle magique qui permet de mesurer les distances, les angles, les rayons entre les plans, les axes et les points. Un outil indispensable lors de la modélisation ! L'Emplacement : 
 
- <br/><p align="center"><img alt="Analyse" src="img/8.png"  width="80%"></p> <br/>
+ <br/><p align="center"><img alt="Analyse" src="img/9.png"  width="80%"></p> <br/>
 
 
-### d) Simulation en Direct, Annotation et Outils
-Ces trois sont à découvrir pour les plus curieux, on n'en a pas besoin pour l'instant.
+### d) Simulation en Direct, Annotation, Outils et Modélisation Flexible
+Ces quatres sont à découvrir pour les plus curieux, on n'en a pas besoin pour l'instant.
 
 ### e) Affichage
 Ici, on a deux fonctions qui nous aident à mieux visualiser nos modèles :
   - Apparences : permet de choisir le matériau et la couleur de la surface de la pièce. Il y a une bibliothèque de matériaux (à chercher en anglais !)
   - Section : permet de découper notre pièce ou l'assemblage pour voir son contenu, sans le détruire (sans modifier l'arbre de navigation)
 
- <br/><p align="center"><img alt="Affichage" src="img/9.png"  width="80%"></p> <br/>
+ <br/><p align="center"><img alt="Affichage" src="img/10.png"  width="80%"></p> <br/>
 
+### f) Applications 
+Dans cette partie, on a l'artillerie lourde que j'ai l'ambition de mettre en place au club un jour, mais c'est un peu overkill pour notre niveau. Donc la seule fonction qu'on utilise ici c'est :
 
+  - Render Studio : permet d'immortaliser nos jolis modèles en haute qualité pour partager entre nous ou pour poster sur les réseaux sociaux
+ <br/><p align="center"><img alt="Render studio" src="img/11.png"  width="80%"></p> <br/>
+**Cas particulier pour l'Assemblage :**
+Dans les assemblages, on retrouve dans cette fenêtre une fonction expérimentale (même l'auteur de ce guide ne la maîtrise pas comme il faut) :
+  - Câblage : permet de modéliser les câbles beaucoup plus agilement
 
 
 
