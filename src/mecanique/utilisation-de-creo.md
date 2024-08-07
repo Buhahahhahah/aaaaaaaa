@@ -1,5 +1,6 @@
 # Les fonctions principales à connaitre pour l'utilisation de Creo 9
 ## Intorduction
-Creo Parametric est un logiciel de CAD (Computer-aided design) de l'entrée de gamme, c'est à dire il est moins intuitif que ces collegues (Ex. SolidWorks et Catia) 
-mais le licence de Creo coûte moins cher et ce qui est important, est fourni par notre école, INSA Toulouse. 
-Pour savoir comment installer Creo 9 avec le compte INSA voire le document : [Instalation de Creo](https://www.ptc.com/en/products/education/free-software/creo-college-download).  
+Creo Parametric est un logiciel de CAD (Computer-aided design) d'entrée de gamme, c'est-à-dire qu'il est moins intuitif que ses collègues (ex. SolidWorks et Catia), mais la licence de Creo coûte moins cher et, ce qui est important, est fournie par notre école, INSA Toulouse. C'est pourquoi au Club Robot, on utilise Creo. Pour savoir comment installer et configurer Creo 9 avec le compte INSA, voir le document : [Instalation de Creo](https://github.com/Buhahahhahah/aaaaaaaa/blob/master/src/mecanique/installation-de-creo.md).  
+## Partie 1) Repertoire de travail
+La première chose à faire chaque fois que vous lancez votre Creo, c'est le choix du répertoire de travail, c'est-à-dire, vous devez lui indiquer manuellement l'emplacement de votre projet sur votre ordinateur, sinon il ne pourra pas travailler avec les assemblages. C'est une fonction assez pratique car elle permet de ne pas mélanger vos projets et fichiers si vous travaillez sur plusieurs sujets en parallèle.
+Pour cela un fois le Creo sera lancée, fermez le pub (oui c'est un popup automatique qui va sauter devant vous tout le temps) et cliquez sur le bouton "Sélectionner le répertoire de travail". Comme dans le photo : ![Sélectionner le répertoire de travail](/img/1.png)
