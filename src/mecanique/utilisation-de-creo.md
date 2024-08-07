@@ -5,12 +5,12 @@ Creo Parametric est un logiciel de CAD (Computer-aided design) d'entrée de gamm
 La première chose à faire chaque fois que vous lancez votre Creo, c'est le choix du répertoire de travail, c'est-à-dire, vous devez lui indiquer manuellement l'emplacement de votre projet sur votre ordinateur, sinon il ne pourra pas travailler avec les assemblages. C'est une fonction assez pratique car elle permet de ne pas mélanger vos projets et fichiers si vous travaillez sur plusieurs sujets en parallèle.
 Pour cela un fois le Creo sera lancée, fermez le pub (oui c'est un popup automatique qui va sauter devant vous tout le temps) et cliquez sur le bouton "Sélectionner le répertoire de travail". Comme dans indiqué sur l'image : 
 
-  <p align="center"><img alt="Sélectionner le répertoire de travail" src="img/1.png"  width="80%"></p> <br/>
+  <br/><p align="center"><img alt="Sélectionner le répertoire de travail" src="img/1.png"  width="80%"></p><br/>
 
 Petit conseil : ne mettez pas vos projets sur le bureau, car avec l'accumulation de fichiers, cela peut ralentir le démarrage de l'ordinateur. Rangez-les quelque part dans vos Documents, en traçant bien à quelle année scolaire cela correspond pour vous faciliter l'accès. Exemple : 
 
-  <p align="center"><img src="img/2.png" width="60%"></p><br/>
-  <p align="center"><img src="img/3.png" width="60%"></p><br/>
+  <br/><p align="center"><img src="img/2.png" width="60%"></p><br/>
+  <br/><p align="center"><img src="img/3.png" width="60%"></p><br/>
 
 ## Partie 2) Création de pièce et ouverture d'une existante
 Maintenant, quand Creo a compris où nous allons stocker nos fichiers, nous allons créer une pièce. Il faut appuyer sur "Nouveau" en haut à gauche, et vous allez voir la fenêtre suivante :
@@ -28,7 +28,7 @@ Une fois le fichier créé, il faut l'enregistrer. Il faut cliquer sur "fichier"
 Maintenant, pour ouvrir une autre ficher, dans la même destination : "fichier" on click "ouvrir" et on choisit le ficher dans la liste. 
 
 Comme montré dans l'image : 
- <p align="center"><img alt="Ouvrir un fichier" src="img/5.png"  width="80%"></p> <br/>
+ <br/><p align="center"><img alt="Ouvrir un fichier" src="img/5.png"  width="80%"></p> <br/>
 
 ## Partie 3) L'Interface de Creo
 
@@ -36,14 +36,16 @@ Ici, je vais donner la liste et l'emplacement dans Creo 9 des fonctions importan
 
 ### a) L'Arbre de navigation 
 L'Arbre de navigation se trouve à notre gauche, comme dans l'image : 
- <p align="center"><img alt="Arbre de navigation" src="img/6.png"  width="80%"></p> <br/>
+
+ <br/><p align="center"><img alt="Arbre de navigation" src="img/6.png"  width="80%"></p> <br/>
+ 
 Ici, on va retrouver les noms de toutes les opérations et fonctions appliquées sur la pièce, ou la liste de toutes les pièces dans les assemblages. L'Arbre de navigation est manipulable, c'est une sorte de trace de vos fonctions que vous pouvez manipuler et l'application va tout recalculer. Vous pouvez bouger la ligne verte afin de masquer les dernières modifications et de "revenir dans le temps". C'est utile quand vous voulez ajouter des modifications post factum sans tout refaire.
 On va s'en servir également quand il faudra choisir un élément de la pièce ou de l'assemblage (ex. plans, axes, origines, sous-assemblages, etc.).
 Dans une ficher vide, on a quand même notre origine et les plans de Right (vue de profile), Top (vue de dessus) et Front (vue de face) qui sont la base de notre pièce ou de l'assemblage.
 ### b) Modèle
 Dans la partie modèle, on a nos fonctionnalités clés, qui sont entourées dans l'image :
 
- <p align="center"><img alt="Arbre de navigation" src="img/7.png"  width="80%"></p> <br/>
+ <br/><p align="center"><img alt="Arbre de navigation" src="img/7.png"  width="80%"></p> <br/>
 
 **Surlignées en Vert :**
   - Plans : permet de créer des plans quelconques, quand l'orientation ou l'emplacement des plans de base ne suffisent pas
