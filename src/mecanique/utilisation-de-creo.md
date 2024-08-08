@@ -102,9 +102,19 @@ Dans les assemblages, on retrouve dans cette fenêtre une fonction expérimental
   - Câblage : permet de modéliser les câbles beaucoup plus agilement
  <br/><p align="center"><img alt="Câblage" src="img/12.png"  width="80%"></p> <br/>
 
+## Partie 4) Utilisation de ces fonctions
+### a) Plans et Axes
+Dans Creo, pour créer une nouvelle fonction, il faut la baser sur celles existantes. Autrement dit, c'est une chaîne de fonctions basées les unes sur les autres. Ce n'est pas différent pour les plans et les axes. Donc pour les créer, il faut :
+  
+  1) Appuyer sur la fonction
+  2) Choisir le plan ou les plans (en gardant appuyé le Ctrl) par rapport auxquels on veut positionner notre nouveau plan ou nouvel axe
+  3) Donner les paramètres (ex. Décaler de 20 mm)
+  4) Appuyer sur OK
+  5) Visualiser votre nouveau plan ou nouvel axe dans l'arbre de navigation
+  6) Se dire bravo
 
-
-
+Et c'est aussi simple que ça. Voir le GIF :
+ <br/><p align="center"><img alt="Plans ett Axes" src="img/13.gif"  width="80%"></p> <br/>
 
 
 
