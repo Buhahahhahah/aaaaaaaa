@@ -172,3 +172,5 @@ Pour l'utiliser, il faut :
   - Et en rélachant le Ctrl, appuyer sur la molette (le bouton central de la souris) entre les deux références 
 **Attention !** Le type de cote (distance, décalage d'angle, rayon) dépend de l'endroit sur l'esquisse où vous appuyez sur la molette. C'est assez intuitif et vous allez vite comprendre vous-même. Voilà l'exemple :
  <br/><p align="center"><img alt="Cotes" src="img/20.gif"  width="80%"></p> <br/>
+ 
+### c) Extrusion 
