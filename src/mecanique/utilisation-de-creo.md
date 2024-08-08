@@ -114,9 +114,23 @@ Dans Creo, pour créer une nouvelle fonction, il faut la baser sur celles exista
   6) Se dire bravo
 
 Et c'est aussi simple que ça. Voir le GIF :
- <br/><p align="center"><img alt="Plans ett Axes" src="img/13.gif"  width="80%"></p> <br/>
+ <br/><p align="center"><img alt="Plans ett Axes" src="img/13_1.gif"  width="80%"></p> <br/>
 
+### b) Esquisse
+#### I) Comment le faire
+Comme dit précédemment, l'esquisse est la fonction qui permet de faire le schéma en 2D pour le rendre 3D plus tard. Donc, pour le faire, il faut simplement choisir soit un plan, soit une face pour commencer à travailler.
+Pour entrer dans la rédaction de l'esquisse, il faut faire comme avec les plans :
+  1) Appuyer sur "Esquisse"
+  2) Choisir le plan ou la face où poser l'esquisse
+Voilà un GIF qui montre comment le faire :
+ <br/><p align="center"><img alt="Esquisse" src="img/14.gif"  width="80%"></p> <br/>
+#### II) Les réctangles divers
+On a trois types de rectangles qu'on utilise :
+  - Rectangle de coin : défini par ses 2 extrémités sur la diagonale
+  - Rectangle incliné : défini par son côté et la direction de propagation
+  - Rectangle central : défini par son centre et la longueur de ses côtés
+Voilà le GIF correspondant :
 
-
+ <br/><p align="center"><img alt="Réctangles" src="img/15.gif"  width="80%"></p> <br/>
 
 
