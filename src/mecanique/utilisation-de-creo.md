@@ -114,23 +114,61 @@ Dans Creo, pour créer une nouvelle fonction, il faut la baser sur celles exista
   6) Se dire bravo
 
 Et c'est aussi simple que ça. Voir le GIF :
+
  <br/><p align="center"><img alt="Plans ett Axes" src="img/13_1.gif"  width="80%"></p> <br/>
 
 ### b) Esquisse
-#### I) Comment le faire
+#### I) Comment la créer
 Comme dit précédemment, l'esquisse est la fonction qui permet de faire le schéma en 2D pour le rendre 3D plus tard. Donc, pour le faire, il faut simplement choisir soit un plan, soit une face pour commencer à travailler.
+**À noter !** Creo va essayer de "capturer" votre souris avec des références ; il ne faut pas avoir peur de les utiliser, car ce sont des liens automatiques proposés qui facilitent votre tâche quand vous allez coter (voir plus bas).
 Pour entrer dans la rédaction de l'esquisse, il faut faire comme avec les plans :
   1) Appuyer sur "Esquisse"
   2) Choisir le plan ou la face où poser l'esquisse
 Voilà un GIF qui montre comment le faire :
+
  <br/><p align="center"><img alt="Esquisse" src="img/14.gif"  width="80%"></p> <br/>
-#### II) Les réctangles divers
+Pour modifier l'esquisse une fois que vous l'avez fermée, il faut appuyer sur cela dans l'arbre de navigation et choisir "Modifier la définition" (le deuxième icône).
+#### II) Les Rectangles divers
 On a trois types de rectangles qu'on utilise :
   - Rectangle de coin : défini par ses 2 extrémités sur la diagonale
   - Rectangle incliné : défini par son côté et la direction de propagation
   - Rectangle central : défini par son centre et la longueur de ses côtés
 Voilà le GIF correspondant :
 
- <br/><p align="center"><img alt="Réctangles" src="img/15.gif"  width="80%"></p> <br/>
+ <br/><p align="center"><img alt="Rectangles" src="img/15.gif"  width="80%"></p> <br/>
 
+#### III) Les Circles
+L'utilisation du cercle est très intuitive, il est défini par son centre et son rayon. Voilà un exemple :
 
+ <br/><p align="center"><img alt="Circles" src="img/16.gif"  width="80%"></p> <br/>
+
+#### IV) Les Lignes
+Les lignes sont utilisées pour faire des formes quelconques. Quand la forme est finie, il faut juste appuyer sur Échap (ESC) pour arrêter la ligne.  
+Exemple dans le GIF précédent.
+#### V) Les Arcs
+Une combinaison intuitive entre les cercles et les lignes afin de faire des demi-cercles. Voici l'exemple :
+
+ <br/><p align="center"><img alt="Arcs" src="img/17.gif"  width="80%"></p> <br/>
+
+#### VI) Supprimer les segments 
+Un outil qui permet d'enlever des segments afin de créer des formes exotiques tout en gardant les références automatiques qui rends la modélisation plus facile à modifier. Voice le GIF : 
+ <br/><p align="center"><img alt="Arcs" src="img/18.gif"  width="80%"></p> <br/>
+#### VII) Les Palletes 
+Pour les formes un peu plus complexes mais toujours symétriques, nous avons une bibliothèque de formes cachée dans la fonction "Palette". C'est très utile car nos robots sont de base carrés (2022-2023), octogonaux (2023-2024) ou hexagonaux (2024-2025). <br/>
+Pour les utiliser, il faut simplement ouvrir la liste, attraper la forme et la tirer vers l'endroit où l'on veut la placer. Ensuite, il suffit juste de donner la taille du paramètre et c'est tout. Voici l'exemple :
+ 
+ <br/><p align="center"><img alt="Palletes" src="img/19.gif"  width="80%"></p> <br/>
+#### VIII) Les Cotes et les Annotations
+And last but not least, les cotes. **C'est l'outil le plus important des esquisses !**
+<br/>
+Cette fonction sert à donner la taille de toutes les formes vues précédemment. **À noter !**
+Creo ne tolère pas d'avoir deux fois la même cote, c'est-à-dire que si vous avez déjà donné suffisamment d'informations pour calculer la taille de votre mesure, il va manifester, car cela peut causer des problèmes. La situation est identique si vous essayez de donner des mesures qui sont en conflit ; dans ce cas-là, Creo va vous proposer de changer votre mesure ou de supprimer vos anciennes mesures pour éliminer le conflit.
+
+Pour l'utiliser, il faut :
+
+  - Appuyer sur "Cote"
+  - Choisir la première référence
+  - Choisir la deuxième référence
+  - Et entre les deux, appuyer sur la molette (le bouton central de la souris)
+**Attention !** Le type de cote (distance, décalage d'angle, rayon) dépend de l'endroit sur l'esquisse où vous appuyez sur la molette. C'est assez intuitif et vous allez vite comprendre vous-même. Voilà l'exemple :
+ <br/><p align="center"><img alt="Cotes" src="img/20.gif"  width="80%"></p> <br/>
