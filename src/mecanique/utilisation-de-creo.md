@@ -233,7 +233,7 @@ Voici un exemple :
 
  <br/><p align="center"><img alt="Revolution" src="img/25.gif"  width="80%"></p><br/>
 
-### b) Répétition et Symmétrie
+### b) Répétition et Symétrie
 Puisque vous êtes en train de lire ce guide, j'ose supposer que vous faites partie de Club Robot. D'où, une autre supposition courageuse : vous n'aimez pas trop les actions répétitives. Si c'est le cas, je vous félicite, car Creo nous permet d'éviter de faire plusieurs fois la même action avec ces deux fonctions : "Répétition" et "Symétrie".
 
 #### I) Répétition
@@ -260,18 +260,53 @@ Voici un exemple :
   - Répetition d'axe : propagation autours d'une axe, très pratique pour les trous de vis. Pour le faire, il faut :
 
     1) Choisir la fonction à répéter (l'extrusion, la révolution, les arrondis, les symétries, et même les autres répétitions).
-    2) Appuyer sur "Répétition".
+    2) Appuyer sur "Répétition"
     3) En haut à gauche, choisir le type : Axe.
     4) Choisir l'axe de Répétion
     5) Choisir le nombre de membres de répétition
     6) Choisir l'angle qui separe ces membres
     7) Apprècier le résultat de votre travail
        
-  **Important !** Ne pas faire plus de membres qu'il ne faut. Par exemple, si vous avez 90° d'angle entre les membres, ça ne sert à rien d'en mettre plus que 360°/90 = 4, car cela entraîne des superpositions de trous et des erreurs plus tard (pas fou-fou).
+  **Important !** Ne pas faire plus de membres qu'il ne faut. Par exemple, si vous avez 120° d'angle entre les membres, ça ne sert à rien d'en mettre plus que 360°/120 = 3, car cela entraîne des superpositions de trous et des erreurs plus tard (pas fou-fou).
 
 Voici un exemple : 
 
  <br/><p align="center"><img alt="Repetition2" src="img/27.gif"  width="80%"></p><br/>
+#### II) Symétrie
+La fonction "Symétrie" est très proche de la "Répétition", sauf qu'elle reproduit la réflexion par rapport à un plan (comme un miroir en fait).
+
+Pour l'utiliser il faut : 
+  1) Choisir la fonction à répéter (l'extrusion, la révolution, les arrondis, les répétitions, et même les autres symétries).
+  2) Appuyer sur "Symétrie"
+  3) Choisir le plan de symétrie
+  4) Apprècier le résultat
+
+Voici un exemple : 
+
+ <br/><p align="center"><img alt="Symetrie" src="img/28.gif"  width="80%"></p><br/>
+
+### d) Mesurer
+
+Quand vous aurez besoin de mesurer quelque chose, par exemple une distance, un rayon, un angle ou une surface, vous allez utiliser notre règle magique.
+
+Pour l'utiliser :
+
+  - Pour mesurer une longueur, un rayon ou tout autre paramètre unique, il faut :
+  1) Appuyer sur "Mesurer".
+  2) Appuyer sur l'objet à mesurer.
+  3) Se dire, "WoW, tellement bien fait !".
+
+  - Pour mesurer une distance, un décalage d'angle ou tout autre paramètre lié à deux entités :
+  1) Appuyer sur "Mesurer".
+  2) Appuyer sur la référence 1 de la mesure.
+  3) En gardant le Ctrl appuyé, appuyer sur la référence 2 de la mesure.
+
+  Voici un exemple: 
+ <br/><p align="center"><img alt="Mesurer" src="img/29.gif"  width="80%"></p><br/>
+
+
+
+
 
     
 
