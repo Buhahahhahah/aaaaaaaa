@@ -371,22 +371,50 @@ La première pièce est la base de votre assemblage et elle est censée être fi
 
 Pour cela, il faut :
   
-  - Appuyer sur "Assemblage".
-  - Choisir la pièce dans la liste.
-  - Choisir l'origine de l'assemblage dans l'arbre de navigation.
-  - Choisir l'origine de la pièce dans l'arbre de navigation.
-  - Vérifier que la pièce a bien changé de couleur, car si la pièce est :
+  1) Appuyer sur "Assemblage".
+  2) Choisir la pièce dans la liste.
+  3) Choisir l'origine de l'assemblage dans l'arbre de navigation.
+  4) Choisir l'origine de la pièce dans l'arbre de navigation.
+  5) Vérifier que la pièce a bien changé de couleur, car si la pièce est :
     - Violette : elle n'est pas fixe (il y a des contraintes à ajouter).
     - Orange : elle est fixe (il n'y a pas besoin de contraintes supplémentaires, mais vous pouvez la réorienter avec une dernière contrainte).
-  - Appuyer sur OK.
+  6) Appuyer sur OK.
 **À noter !** Pour que l'assemblage reste fonctionnel même après le redémarrage de Creo, il faut que toutes les pièces se retrouvent dans le même dossier que l'assemblage (**et pas dans des sous-dossiers !** Sinon Creo va perdre les pièces). De plus, on peut faire des assemblages avec d'autres assemblages (pour l'assemblage maître, l'assemblage importé est considéré comme une pièce).
 
 Voici la démonstration : 
 
  <br/><p align="center"><img alt="Assemblage1" src="img/35.gif"  width="80%"></p><br/>
 
-Quand la pièce de base sera fixé, on va ajouter les autres et c'est la qu'on va parler des "Réstrictions" (Contraints). C'est les liaisons entre deux pièces ou 2 références (Ex. les faces, les arrets, les axes etc) qui permettent de construire l'assemblage. 
+Quand la pièce de base sera fixée, nous allons ajouter les autres, et c'est là que nous parlerons des "Restrictions" (Contraintes). Ce sont les liaisons entre deux pièces ou deux références (ex. les faces, les arêtes, les axes, etc.) qui permettent de construire l'assemblage.
 
-Au totale il y en a 10 mais les plus utilisés sont : 
-  - Coincident : quand les deux réferences sont collées 
-  - Distance : comme avec le à coincident mais en distance 
+Il y en a 10 au total, mais les plus utilisées sont :
+  
+  - Coincident : lorsque les deux références sont collées
+  - Distance : similaire à coincident, mais avec une distance spécifiée
+    **Attention !** Cela ne signifie pas que toutes les directions sont bloquées, la restriction s'applique uniquement aux références choisies.
+    Par exemple, si vous bloquez deux faces, cela revient à mettre en contact deux plans infinis. Il faut donc ajouter d'autres contraintes (coincident ou
+    distance) pour fixer la pièce
+  - Orienté : lorsque deux cylindres ou axes sont imposés d'être coaxiaux
+  - Parallèle : lorsque l'on ne veut pas fixer l'objet mais plutôt encadrer ses déplacements
+  - Décalage d'angle : comme son nom l'indique, cela permet d'imposer un décalage d'angle entre deux références
+Normalement, ces 5 contraintes suffisent largement pour effectuer toutes les opérations nécessaires
+<br/>
+Très souvent, vous n'aurez même pas besoin de choisir le type de restriction, car Creo comprend rapidement ce que vous voulez faire. Et s'il interprète mal vos besoins, vous pouvez choisir dans la liste et corriger.
+
+Pour ajouter de nouvelles pièces à la base et appliquer les restrictions, il faut :
+  
+  1) Appuyer sur "Assemblage".
+  2) Choisir la pièce dans la liste.
+  3) Choisir la référence à fixer sur la pièce.
+  4) Choisir la référence à fixer sur la base.
+  5) Appuyer sur "Nouvelle restriction" (si vous avez besoin de continuer).
+  6) Refaire les étapes 3 et 4.
+  7) Répéter jusqu'à ce que la pièce devienne orange (couleur d'une pièce fixe).
+
+Voici un exemple :
+
+ <br/><p align="center"><img alt="Assemblage2" src="img/36.gif"  width="80%"></p><br/>
+
+**Cas particulier :** si vous souhaitez rendre vos assemblages mobiles pour voir les éléments du robot en mouvement, il faut laisser la pièce violette lors de l'application des restrictions et laisser libre la référence que vous voulez bouger. Dans l'exemple suivant, j'oriente deux trous, mais je ne fixe pas la distance entre les plans, ce qui me permet de faire ceci :
+
+ <br/><p align="center"><img alt="Assemblage3" src="img/37.gif"  width="80%"></p><br/>
