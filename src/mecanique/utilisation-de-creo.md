@@ -331,6 +331,26 @@ Voici un exemple :
  <br/><p align="center"><img alt="Section" src="img/31.gif"  width="80%"></p><br/>
     
 ### f) Le Render Studio
-Ca y est, vous avez fini votre maginifique pièce ou l'assemblage ? Vous avez envie de la partager avec vos colleagues pour les demander leurs avis ?
-Bon idée ! Mais il faut le faire proprement. Apres avoir appliqué vos apparences on vous allez lancer le Render Studio. 
+Ça y est, vous avez fini votre magnifique pièce ou assemblage ? Vous avez envie de la partager avec vos collègues pour leur demander leur avis ? Bonne idée ! Mais il faut le faire proprement.
+
+<br/>
+
+Après avoir appliqué vos apparences, vous allez lancer le "Render Studio".
+
+L'utilisation est simple :
+
+  Appuyer sur "Render Studio" dans Applications.
+  - Ensuite, appuyer sur "Rendu".
+  - Choisir l'emplacement et le nom du fichier.
+  - Choisir le format :
+    - JPEG : si vous voulez garder l'arrière-plan.
+    - PNG : si vous voulez un arrière-plan transparent (il faudra également appuyer sur "Inclure Alpha" pour cela).
+  - Ensuite, choisir l'un des deux :
+    - Le nombre d'échantillons (plus il y en a, meilleure sera la qualité de l'image ; à partir de 500, la qualité est suffisante).
+    - La durée de rendu (environ 30 secondes suffisent).
+  - Envoyer à votre secrétaire de club pour qu'il fasse de jolis posts sur les réseaux sociaux.
+
+Voici un exemple : 
+
+ <br/><p align="center"><img alt="Render" src="img/32.gif"  width="80%"></p><br/>
 
