@@ -191,7 +191,8 @@ Voici un exemple :
   1) Choisir l'esquisse correspondante
   2) Appuyer sur la fonction "Extrusion"
   3) Appuyer sur l'option "Enlever de la matière"
-  4) Choisir le mode :
+  4) Chager la direction
+  5) Choisir le mode :
     - Donner la profondeur
     - Changer la référence et indiquer jusqu'où cela doit aller
     - Choisir "à travers tout" pour traverser l'ensemble.
