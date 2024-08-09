@@ -357,3 +357,20 @@ Voici un exemple :
 Et pour comparer le résultat : à gauche on n'a que 6 echantillons alors qu'à droite on en a 500. 
 
  <br/><p align="center"><img alt="Render2" src="img/40.png"  width="80%"></p><br/>
+
+### g) Assemblage
+
+Pour finir, le coup de grâce : le moment où toutes vos pièces vont se rassembler pour former une entité, un monstre de Frankenstein, une amalgamation d'imaginations humaines... autrement dit, le robot ! <br/>
+La création de l'assemblage est identique à celui de la pièce avec la seule difference que dans le fenetre de choix il faut choisir "Assemblage" au lieu de "Pièce".
+Commensons par le commonsement : la premiere pièce. La première pièce est la base de votre assemblage et elle est sensé d'être fixe, donc c'est à vous de mettre la pièce fixe en premier.
+
+Pour cela il faut : 
+  - Appuyer sur "Assemblage"
+  - Choisir la pièce dans la liste
+  - Choisir l'origine de l'assemblage dans l'arbre de navigation
+  - Choisir l'origine de la pièce dans l'arbre de navigation 
+  - Vérifier que la pièce à bien chagé de couleur car si la pièce est :
+    - Violet : elle n'est pas fixe (il y a des contraints à ajouter)
+    - Orange : elle est fixe (il n'y a pas besoin de contraints supplimentaires, mais vous pouvez reorienter avec une derniere contrainte)
+  - Appuyer sur OK
+**A noter** pour que l'assemblage reste fonctionnel même après le redemarage de Creo, il faut qu'absoulement toutes ces pièces se retrouvent dans le même dosser que l'assemblage (**Et pas de sous-doussers !**) De plus, on peut faire des assembkages avec d'autres assemblages (pour l'assemblage maître, l'assemblage emportè est consideré comme une pièce)
