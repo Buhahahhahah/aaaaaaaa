@@ -421,6 +421,6 @@ Voici un exemple :
 
 Après, quand vous aurez plus d'expérience et que vous aurez compris la logique des "Restrictions" (vous allez vite comprendre après avoir travaillé avec, je ne vois pas l'intérêt de tout détailler ici, c'est très intuitif), vous serez capable de faire des choses de ce genre :
 
- <br/><p align="center"><img alt="Assemblage4" src="img/38.gif"  width="80%"></p><br/>
+ <br/><p align="center"><img alt="Assemblage4" src="img/39.gif"  width="80%"></p><br/>
 
 Ce n'est pas un chef-d'œuvre, mais c'est quelque chose de pratique qui permet de bouger le mécanisme pour mieux voir les choses à corriger.
