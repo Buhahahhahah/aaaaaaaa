@@ -233,6 +233,9 @@ Voici un exemple :
 
  <br/><p align="center"><img alt="Revolution" src="img/25.gif"  width="80%"></p><br/>
 
+### b) Arrondis et Chanfrrins 
+
+
 ### b) Répétition et Symétrie
 Puisque vous êtes en train de lire ce guide, j'ose supposer que vous faites partie de Club Robot. D'où, une autre supposition courageuse : vous n'aimez pas trop les actions répétitives. Si c'est le cas, je vous félicite, car Creo nous permet d'éviter de faire plusieurs fois la même action avec ces deux fonctions : "Répétition" et "Symétrie".
 
