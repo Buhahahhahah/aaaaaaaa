@@ -260,7 +260,7 @@ Si vous faites cela, vous verrez que Creo a créé un groupe nommé "Jeu 1". Si 
 
 Voici à quoi cela doit ressembler :
 
- <br/><p align="center"><img alt="Arrondi" src="img/39.gif"  width="80%"></p><br/>
+ <br/><p align="center"><img alt="Arrondi" src="img/38.gif"  width="80%"></p><br/>
 
 ### b) Répétition et Symétrie
 Puisque vous êtes en train de lire ce guide, j'ose supposer que vous faites partie de Club Robot. D'où, une autre supposition courageuse : vous n'aimez pas trop les actions répétitives. Si c'est le cas, je vous félicite, car Creo nous permet d'éviter de faire plusieurs fois la même action avec ces deux fonctions : "Répétition" et "Symétrie".
