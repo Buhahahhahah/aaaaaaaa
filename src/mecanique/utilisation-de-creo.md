@@ -1,7 +1,7 @@
 # Les fonctions principales à connaitre pour l'utilisation de Creo 9
 ## Intorduction
 Creo Parametric est un logiciel de CAD (Computer-aided design) d'entrée de gamme, c'est-à-dire qu'il est moins intuitif que ses collègues (ex. SolidWorks et Catia), mais la licence de Creo coûte moins cher et, ce qui est important, est fournie par notre école, INSA Toulouse. C'est pourquoi au Club Robot, on utilise Creo. Pour savoir comment installer et configurer Creo 9 avec le compte INSA, voir le document : [Installation de Creo](installation-de-creo.md).  
-## Partie I) Repertoire de travail
+## Partie I) La Repertoire de travail
 La première chose à faire chaque fois que vous lancez votre Creo, c'est le choix du répertoire de travail, c'est-à-dire, vous devez lui indiquer manuellement l'emplacement de votre projet sur votre ordinateur, sinon il ne pourra pas travailler avec les assemblages. C'est une fonction assez pratique car elle permet de ne pas mélanger vos projets et fichiers si vous travaillez sur plusieurs sujets en parallèle.
 Pour cela un fois le Creo sera lancée, fermez le pub (oui c'est un popup automatique qui va sauter devant vous tout le temps) et cliquez sur le bouton "Sélectionner le répertoire de travail". Comme dans indiqué sur l'image : 
 
@@ -12,7 +12,7 @@ Petit conseil : ne mettez pas vos projets sur le bureau, car avec l'accumulation
   <br/><p align="center"><img src="img/2.png" width="60%"></p><br/>
   <br/><p align="center"><img src="img/3.png" width="60%"></p><br/>
 
-## Partie II) Création de pièce et ouverture d'une existante
+## Partie II) Création d'une pièce et ouverture d'une existante
 Maintenant, quand Creo a compris où nous allons stocker nos fichiers, nous allons créer une pièce. Il faut appuyer sur "Nouveau" en haut à gauche, et vous allez voir la fenêtre suivante :
   <p align="center"><img alt="Création de pièce" src="img/4.png"  width="80%"></p> <br/>
 On laisse les selections de "pièce", "solide" sans modifications et dans "Nom du ficher" on écrit le nom de notre prècieuse pièce.
@@ -50,7 +50,7 @@ L'Arbre de navigation se trouve à notre gauche, comme dans l'image :
 Ici, on va retrouver les noms de toutes les opérations et fonctions appliquées sur la pièce, ou la liste de toutes les pièces dans les assemblages. L'Arbre de navigation est manipulable, c'est une sorte de trace de vos fonctions que vous pouvez manipuler et l'application va tout recalculer. Vous pouvez bouger la ligne verte afin de masquer les dernières modifications et de "revenir dans le temps". C'est utile quand vous voulez ajouter des modifications post factum sans tout refaire.
 On va s'en servir également quand il faudra choisir un élément de la pièce ou de l'assemblage (ex. plans, axes, origines, sous-assemblages, etc.).
 Dans une ficher vide, on a quand même notre origine et les plans de Right (vue de profile), Top (vue de dessus) et Front (vue de face) qui sont la base de notre pièce ou de l'assemblage.
-### 2) Modèle
+### 2) Le Modèle
 Dans la partie modèle, on a nos fonctionnalités clés, qui sont entourées dans l'image :
 
  <br/><p align="center"><img alt="Modèle" src="img/7.png"  width="80%"></p> <br/>
@@ -83,24 +83,24 @@ Cette fenêtre est un peu modifiée pour les assemblages et on y retrouve une fo
   - Assembler : permet d'ajouter, une par une, les pièces dans l'assemblage afin de voir la totalité du système ensemble
  <br/><p align="center"><img alt="Assembler" src="img/8.png"  width="80%"></p> <br/>
 
-### 3) Analyse
+### 3) L'Analyse
 
 Drôlement, la seule fonction qu'on utilise ici c'est la "Mesurer", la règle magique qui permet de mesurer les distances, les angles, les rayons entre les plans, les axes et les points. Un outil indispensable lors de la modélisation ! L'Emplacement : 
 
  <br/><p align="center"><img alt="Analyse" src="img/9.png"  width="80%"></p> <br/>
 
 
-### 4) Simulation en Direct, Annotation, Outils et Modélisation Flexible
+### 4) La Simulation en Direct, l'Annotation, les Outils et la Modélisation Flexible
 Ces quatres sont à découvrir pour les plus curieux, on n'en a pas besoin pour l'instant.
 
-### 5) Affichage
+### 5) L'Affichage
 Ici, on a deux fonctions qui nous aident à mieux visualiser nos modèles :
   - Apparences : permet de choisir le matériau et la couleur de la surface de la pièce. Il y a une bibliothèque de matériaux (à chercher en anglais !)
   - Section : permet de découper notre pièce ou l'assemblage pour voir son contenu, sans le détruire (sans modifier l'arbre de navigation)
 
  <br/><p align="center"><img alt="Affichage" src="img/10.png"  width="80%"></p> <br/>
 
-### 6) Applications 
+### 6) Les Applications 
 Dans cette partie, on a l'artillerie lourde que j'ai l'ambition de mettre en place au club un jour, mais c'est un peu overkill pour notre niveau. Donc la seule fonction qu'on utilise ici c'est :
 
   - Render Studio : permet d'immortaliser nos jolis modèles en haute qualité pour partager entre nous ou pour poster sur les réseaux sociaux
@@ -110,8 +110,8 @@ Dans les assemblages, on retrouve dans cette fenêtre une fonction expérimental
   - Câblage : permet de modéliser les câbles beaucoup plus agilement
  <br/><p align="center"><img alt="Câblage" src="img/12.png"  width="80%"></p> <br/>
 
-## Partie IV) Utilisation de ces fonctions
-### 1) Plans et Axes
+## Partie IV) L'Utilisation de ces fonctions
+### 1) Les Plans et Les Axes
 Dans Creo, pour créer une nouvelle fonction, il faut la baser sur celles existantes. Autrement dit, c'est une chaîne de fonctions basées les unes sur les autres. Ce n'est pas différent pour les plans et les axes. Donc pour les créer, il faut :
   
   1) Appuyer sur la fonction
@@ -125,7 +125,7 @@ Et c'est aussi simple que ça. Voir le GIF :
 
  <br/><p align="center"><img alt="Plans ett Axes" src="img/13_1.gif"  width="80%"></p> <br/>
 
-### 2) Esquisse
+### 2) L'Esquisse
 #### a) Comment la créer
 Comme dit précédemment, l'esquisse est la fonction qui permet de faire le schéma en 2D pour le rendre 3D plus tard. Donc, pour le faire, il faut simplement choisir soit un plan, soit une face pour commencer à travailler.
 **À noter !** Creo va essayer de "capturer" votre souris avec des références ; il ne faut pas avoir peur de les utiliser, car ce sont des liens automatiques proposés qui facilitent votre tâche quand vous allez coter (voir plus bas).
@@ -168,7 +168,7 @@ Pour les formes un peu plus complexes mais toujours symétriques, nous avons une
 Pour les utiliser, il faut simplement ouvrir la liste, attraper la forme et la tirer vers l'endroit où l'on veut la placer. Ensuite, il suffit juste de donner la taille du paramètre et c'est tout. Voici l'exemple :
  
  <br/><p align="center"><img alt="Palletes" src="img/19.gif"  width="80%"></p> <br/>
-#### h) Les Cotes et les Annotations
+#### h) Les Cotes et Les Annotations
 And last but not least, les cotes. **C'est l'outil le plus important des esquisses !**
 <br/>
 Cette fonction sert à donner la taille de toutes les formes vues précédemment. **À noter !**
@@ -183,11 +183,11 @@ Pour l'utiliser, il faut :
 **Attention !** Le type de cote (distance, décalage d'angle, rayon) dépend de l'endroit sur l'esquisse où vous appuyez sur la molette. C'est assez intuitif et vous allez vite comprendre vous-même. Voilà l'exemple :
  <br/><p align="center"><img alt="Cotes" src="img/20.gif"  width="80%"></p> <br/>
  
-### 3) Extrusion et Révolution
+### 3) L'Extrusion et La Révolution
 
 Une fois votre esquisse prête, vous aurez accès à une nouvelle paire de fonctions : extrusion et révolution. Les deux servent à ajouter ou à enlever de la matière, ni plus ni moins.
 
-#### a) Extrusion
+#### a) L'Extrusion
 
 - Pour ajouter de la matière, il faut :
   1) Choisir l'esquisse correspondante
@@ -219,7 +219,7 @@ Et un troisième fait par "A travers tout" :
 
  <br/><p align="center"><img alt="Extrusion4" src="img/24.gif"  width="80%"></p> <br/>
  
-#### b) Révolution
+#### b) La Révolution
 
 La révolution est presque identique à la fonction précédente, avec une différence : elle nécessite d'avoir un axe autour duquel la rotation sera faite.
 Donc, pour faire une révolution (sans faire sauter des têtes de rois), il faut :
@@ -233,7 +233,7 @@ Voici un exemple :
 
  <br/><p align="center"><img alt="Revolution" src="img/25.gif"  width="80%"></p><br/>
 
-### 4) Arrondis et Chanfrrins 
+### 4) Les Arrondis et Les Chanfreins 
 Ces deux fonctions, malgré leur importance, sont parfois oubliées, et c'est dommage, car si elles sont bien appliquées, elles peuvent :
 
   - Rendre la pièce plus solide
@@ -262,10 +262,10 @@ Voici à quoi cela doit ressembler :
 
  <br/><p align="center"><img alt="Arrondi" src="img/38.gif"  width="80%"></p><br/>
 
-### 5) Répétition et Symétrie
+### 5) La Répétition et La Symétrie
 Puisque vous êtes en train de lire ce guide, j'ose supposer que vous faites partie de Club Robot. D'où, une autre supposition courageuse : vous n'aimez pas trop les actions répétitives. Si c'est le cas, je vous félicite, car Creo nous permet d'éviter de faire plusieurs fois la même action avec ces deux fonctions : "Répétition" et "Symétrie".
 
-#### a) Répétition
+#### a) La Répétition
 Il y a plusieurs options de "Répétition", mais nous allons nous concentrer sur deux d'entre elles :
 
   - Répétition de direction : très pratique pour couvrir une surface. Pour le faire, il faut :
@@ -301,7 +301,7 @@ Voici un exemple :
 Voici un exemple : 
 
  <br/><p align="center"><img alt="Repetition2" src="img/27.gif"  width="80%"></p><br/>
-#### b) Symétrie
+#### b) La Symétrie
 La fonction "Symétrie" est très proche de la "Répétition", sauf qu'elle reproduit la réflexion par rapport à un plan (comme un miroir en fait).
 
 Pour l'utiliser il faut : 
@@ -387,7 +387,7 @@ Et pour comparer le résultat : à gauche on n'a que 6 echantillons alors qu'à 
 
  <br/><p align="center"><img alt="Render2" src="img/40.png"  width="80%"></p><br/>
 
-### 9) Assemblage
+### 9) L'Assemblage
 
 Pour finir, le coup de grâce : le moment où toutes vos pièces vont se rassembler pour former une entité, un monstre de Frankenstein, une amalgamation d'imaginations humaines... autrement dit, le robot ! <br/>
 La création de l'assemblage est identique à celle d'une pièce, avec la seule différence qu'il faut choisir "Assemblage" au lieu de "Pièce" dans la fenêtre de sélection. 
