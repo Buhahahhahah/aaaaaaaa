@@ -240,7 +240,27 @@ Ces deux fonctions, malgré leur importance, sont parfois oubliées, et c'est do
   - La rendre plus jolie et ergonomique
   - Améliorer la qualité d'impression avec l'imprimante 3D
 
-**Donc à favoriser leurs utilisation !** (plus de détails à ce sujet dans : [Tips de Meca](tips-de-meca.md))
+**Donc à favoriser leurs utilisation !** 
+Mais que font-elles si elles sont aussi importantes ? Pas grand-chose, en fait, juste :
+
+  - Les arrondis : rendent les arêtes rondes.
+  - Les chanfreins : rendent les arêtes plates.
+
+Très souvent, quand on les applique, on enlève de la matière dans les endroits où elle est trop inutile et on en rajoute là où il en manque.
+
+**Attention !** Pour savoir dans quels cas les utiliser, lire absolument : [Tips de Meca](tips-de-meca.md))
+
+Alors, comment les appliquer ? C'est très simple :
+
+  - Appuyer sur "Arrondi" (ou "Chanfrein" si vous avez besoin de cela).
+  - En gardant appuyé le Ctrl, appuyer sur les arêtes qui vous intéressent.
+  - Ajouter le rayon d’arrondi désiré (idem pour le "Chanfrein", mais au lieu du rayon, il faut modifier une longueur).
+
+Si vous faites cela, vous verrez que Creo a créé un groupe nommé "Jeu 1". Si vous relâchez Ctrl et appuyez sur une nouvelle arête, puis refaites toutes les opérations décrites précédemment, il créera un nouveau groupe : "Jeu 2". L'intérêt de ces groupes est d'avoir plusieurs arrondis/chanfreins qui sont faciles à modifier en modifiant le groupe, sans avoir à les modifier un par un.
+
+Voici à quoi cela doit ressembler :
+
+ <br/><p align="center"><img alt="Arrondi" src="img/39.gif"  width="80%"></p><br/>
 
 ### b) Répétition et Symétrie
 Puisque vous êtes en train de lire ce guide, j'ose supposer que vous faites partie de Club Robot. D'où, une autre supposition courageuse : vous n'aimez pas trop les actions répétitives. Si c'est le cas, je vous félicite, car Creo nous permet d'éviter de faire plusieurs fois la même action avec ces deux fonctions : "Répétition" et "Symétrie".
