@@ -173,4 +173,38 @@ Pour l'utiliser, il faut :
 **Attention !** Le type de cote (distance, décalage d'angle, rayon) dépend de l'endroit sur l'esquisse où vous appuyez sur la molette. C'est assez intuitif et vous allez vite comprendre vous-même. Voilà l'exemple :
  <br/><p align="center"><img alt="Cotes" src="img/20.gif"  width="80%"></p> <br/>
  
-### c) Extrusion 
+### c) Extrusion et Révolution
+
+Une fois votre esquisse prête, vous aurez accès à une nouvelle paire de fonctions : extrusion et révolution. Les deux servent à ajouter ou à enlever de la matière, ni plus ni moins.
+
+#### I) Extrusion
+
+- Pour ajouter de la matière, il faut :
+  1) Choisir l'esquisse correspondante
+  2) Appuyer sur la fonction "Extrusion"
+  3) Choisir la profondeur et la direction
+Voici un exemple :
+
+ <br/><p align="center"><img alt="Extrusion1" src="img/21.gif"  width="80%"></p> <br/>
+
+- Pour enlever de la matière, il faut :
+  1) Choisir l'esquisse correspondante
+  2) Appuyer sur la fonction "Extrusion"
+  3) Appuyer sur l'option "Enlever de la matière"
+  4) Choisir le mode :
+    - Donner la profondeur
+    - Changer la référence et indiquer jusqu'où cela doit aller
+    - Choisir "à travers tout" pour traverser l'ensemble.
+
+Voici un exemple de trou fait par la profondeur :
+
+ <br/><p align="center"><img alt="Extrusion2" src="img/22.gif"  width="80%"></p> <br/>
+
+Un autre exemple de trou fait par la référence :
+
+ <br/><p align="center"><img alt="Extrusion3" src="img/23.gif"  width="80%"></p> <br/>
+
+Un troisième fait par "A travers tout" :
+
+ <br/><p align="center"><img alt="Extrusion4" src="img/24.gif"  width="80%"></p> <br/>
+
