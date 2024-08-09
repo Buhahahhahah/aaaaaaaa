@@ -205,7 +205,20 @@ Un autre exemple de trou fait par la référence :
 
  <br/><p align="center"><img alt="Extrusion3" src="img/23.gif"  width="80%"></p> <br/>
 
-Un troisième fait par "A travers tout" :
+Et un troisième fait par "A travers tout" :
 
  <br/><p align="center"><img alt="Extrusion4" src="img/24.gif"  width="80%"></p> <br/>
+ 
+#### II) Révolution
 
+La révolution est presque identique à la fonction précédente, avec une différence : elle nécessite d'avoir un axe autour duquel la rotation sera faite.
+Donc, pour faire une révolution (sans faire sauter des têtes de rois), il faut :
+
+  1) Choisir l'esquisse correspondante
+  2) Appuyer sur la fonction "Révolution"
+  3) Choisir l'axe de révolution
+
+Et s'il faut faire un trou, comme pour l'extrusion, il suffit simplement d'appuyer sur "Enlever de la matière".
+Voici un exemple :
+
+ <br/><p align="center"><img alt="Revolution" src="img/26.gif"  width="80%"></p><br/>
