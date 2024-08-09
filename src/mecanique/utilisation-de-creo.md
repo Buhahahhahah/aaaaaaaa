@@ -5,22 +5,22 @@
   **I) La Repertoire de travail**<br/>
   **II) Création d'une pièce et l'ouverture d'une existante**<br/>
   **III) L'Interface de Creo**<br/>
-              1) L'Arbre de navigation
-              2) Le Modèle
-              3) L'Analyse
-              4) La Simulation en Direct, l'Annotation, les Outils et la Modélisation Flexible
-              5) L'Affichage
-              6) Les Applications
+              1) L'Arbre de navigation<br/>
+              2) Le Modèle<br/>
+              3) L'Analyse<br/>
+              4) La Simulation en Direct, l'Annotation, les Outils et la Modélisation Flexible<br/>
+              5) L'Affichage<br/>
+              6) Les Applications<br/>
   **IV) L'Utilisation de ces fonctions**<br/>
-              1) Les Plans et Les Axes
-              2) L'Esquisse
-              3) L'Extrusion et La Révolution
-              4) Les Arrondis et Les Chanfreins
-              5) La Répétition et La Symétrie
-              6) Mesurer
-              7) Les Apparences et Les Sections
-              8) Le Render Studio
-              9) L'Assemblage
+              1) Les Plans et Les Axes<br/>
+              2) L'Esquisse<br/>
+              3) L'Extrusion et La Révolution<br/>
+              4) Les Arrondis et Les Chanfreins<br/>
+              5) La Répétition et La Symétrie<br/>
+              6) Mesurer<br/>
+              7) Les Apparences et Les Sections<br/>
+              8) Le Render Studio<br/>
+              9) L'Assemblage<br/>
   
 ## Intorduction
 Creo Parametric est un logiciel de CAD (Computer-aided design) d'entrée de gamme, c'est-à-dire qu'il est moins intuitif que ses collègues (ex. SolidWorks et Catia), mais la licence de Creo coûte moins cher et, ce qui est important, est fournie par notre école, INSA Toulouse. C'est pourquoi au Club Robot, on utilise Creo. Pour savoir comment installer et configurer Creo 9 avec le compte INSA, voir le document : [Installation de Creo](installation-de-creo.md).  
