@@ -415,6 +415,12 @@ Voici un exemple :
 
  <br/><p align="center"><img alt="Assemblage2" src="img/36.gif"  width="80%"></p><br/>
 
-**Cas particulier :** si vous souhaitez rendre vos assemblages mobiles pour voir les éléments du robot en mouvement, il faut laisser la pièce violette lors de l'application des restrictions et laisser libre la référence que vous voulez bouger. Dans l'exemple suivant, j'oriente deux trous, mais je ne fixe pas la distance entre les plans, ce qui me permet de faire ceci :
+**Cas particulier :** si vous souhaitez rendre vos assemblages mobiles pour voir les éléments du robot en mouvement, il faut laisser la pièce violette lors de l'application des restrictions et laisser libre la référence que vous voulez bouger. Dans l'exemple suivant, j'oriente deux trous, mais je ne fixe pas la distance entre les plans, ce qui me permet, en utilisant la fonction "Faire glisser les composents", de faire ceci :
 
  <br/><p align="center"><img alt="Assemblage3" src="img/37.gif"  width="80%"></p><br/>
+
+Après, quand vous aurez plus d'expérience et que vous aurez compris la logique des "Restrictions" (vous allez vite comprendre après avoir travaillé avec, je ne vois pas l'intérêt de tout détailler ici, c'est très intuitif), vous serez capable de faire des choses de ce genre :
+
+ <br/><p align="center"><img alt="Assemblage4" src="img/38.gif"  width="80%"></p><br/>
+
+Ce n'est pas un chef-d'œuvre, mais c'est quelque chose de pratique qui permet de bouger le mécanisme pour mieux voir les choses à corriger.
