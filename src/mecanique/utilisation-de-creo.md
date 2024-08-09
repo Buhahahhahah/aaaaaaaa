@@ -300,13 +300,37 @@ Pour l'utiliser :
   1) Appuyer sur "Mesurer".
   2) Appuyer sur la référence 1 de la mesure.
   3) En gardant le Ctrl appuyé, appuyer sur la référence 2 de la mesure.
+  4) Tadaaah
 
   Voici un exemple: 
  <br/><p align="center"><img alt="Mesurer" src="img/29.gif"  width="80%"></p><br/>
 
+### e) Les Apparences et Les Sections
 
+Ces deux fonctions ne sont pas indispensables, mais elles aident à mieux visualiser nos pièces.
 
+  - Les Apparences : sont comme la peinture sur les surfaces choisies (cela peut être des couleurs ou des matériaux). Pour les utiliser, il faut :
+    1) Choisir les surfaces à peindre.
+    2) Appuyer sur la fonction "Apparences" (pas l'icône de boule, mais bien le mot "Apparences" avec la flèche).
+    3) Taper la couleur/le matériau dans la barre de recherche (en anglais !) ou choisir parmi ceux proposés.
+    4) Apprécier la beauté de l'art que vous venez de créer.
+  
+Voici un exemple avec du fer (j'ai tapé "Iron" dans la barre de recherche) :
 
+ <br/><p align="center"><img alt="Apparence" src="img/30.gif"  width="80%"></p><br/>
 
+  - Les sections : servent à découper la pièce pour voir son intérieur sans la modifier. Pour les utiliser, il faut :
     
+    1) Appuyer sur la fonction "Section".
+    2) Choisir le plan auquel la section doit être parallèle.
+    3) Bouger la souris ou taper manuellement en haut pour choisir la profondeur de la section.
+    4) Masquer la section si vous n'en avez plus besoin et souhaitez continuer votre modélisation.
+
+Voici un exemple :
+
+ <br/><p align="center"><img alt="Section" src="img/31.gif"  width="80%"></p><br/>
+    
+### f) Le Render Studio
+Ca y est, vous avez fini votre maginifique pièce ou l'assemblage ? Vous avez envie de la partager avec vos colleagues pour les demander leurs avis ?
+Bon idée ! Mais il faut le faire proprement. Apres avoir appliqué vos apparences on vous allez lancer le Render Studio. 
 
