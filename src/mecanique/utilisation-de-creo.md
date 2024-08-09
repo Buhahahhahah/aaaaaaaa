@@ -12,7 +12,7 @@ Petit conseil : ne mettez pas vos projets sur le bureau, car avec l'accumulation
   <br/><p align="center"><img src="img/2.png" width="60%"></p><br/>
   <br/><p align="center"><img src="img/3.png" width="60%"></p><br/>
 
-## Partie II) Création d'une pièce et ouverture d'une existante
+## Partie II) Création d'une pièce et l'ouverture d'une existante
 Maintenant, quand Creo a compris où nous allons stocker nos fichiers, nous allons créer une pièce. Il faut appuyer sur "Nouveau" en haut à gauche, et vous allez voir la fenêtre suivante :
   <p align="center"><img alt="Création de pièce" src="img/4.png"  width="80%"></p> <br/>
 On laisse les selections de "pièce", "solide" sans modifications et dans "Nom du ficher" on écrit le nom de notre prècieuse pièce.
