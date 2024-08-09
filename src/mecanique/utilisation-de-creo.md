@@ -5,7 +5,7 @@
   **I) La Repertoire de travail**<br/>
   **II) Création d'une pièce et l'ouverture d'une existante**<br/>
   **III) L'Interface de Creo**<br/>
-              1) L'Arbre de navigation<br/>
+    &nbsp 1) L'Arbre de navigation<br/>
               2) Le Modèle<br/>
               3) L'Analyse<br/>
               4) La Simulation en Direct, l'Annotation, les Outils et la Modélisation Flexible<br/>
