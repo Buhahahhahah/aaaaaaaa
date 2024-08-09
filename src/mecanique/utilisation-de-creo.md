@@ -356,4 +356,4 @@ Voici un exemple :
 
 Et pour comparer le résultat : à gauche on n'a que 6 echantillons alors qu'à droite on en a 500. 
 
- <br/><p align="center"><img alt="Render2" src="img/40.gif"  width="80%"></p><br/>
+ <br/><p align="center"><img alt="Render2" src="img/40.png"  width="80%"></p><br/>
