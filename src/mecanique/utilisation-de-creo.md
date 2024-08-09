@@ -361,16 +361,32 @@ Et pour comparer le résultat : à gauche on n'a que 6 echantillons alors qu'à 
 ### g) Assemblage
 
 Pour finir, le coup de grâce : le moment où toutes vos pièces vont se rassembler pour former une entité, un monstre de Frankenstein, une amalgamation d'imaginations humaines... autrement dit, le robot ! <br/>
-La création de l'assemblage est identique à celui de la pièce avec la seule difference que dans le fenetre de choix il faut choisir "Assemblage" au lieu de "Pièce".
-Commensons par le commonsement : la premiere pièce. La première pièce est la base de votre assemblage et elle est sensé d'être fixe, donc c'est à vous de mettre la pièce fixe en premier.
+La création de l'assemblage est identique à celle d'une pièce, avec la seule différence qu'il faut choisir "Assemblage" au lieu de "Pièce" dans la fenêtre de sélection. 
 
-Pour cela il faut : 
-  - Appuyer sur "Assemblage"
-  - Choisir la pièce dans la liste
-  - Choisir l'origine de l'assemblage dans l'arbre de navigation
-  - Choisir l'origine de la pièce dans l'arbre de navigation 
-  - Vérifier que la pièce à bien chagé de couleur car si la pièce est :
-    - Violet : elle n'est pas fixe (il y a des contraints à ajouter)
-    - Orange : elle est fixe (il n'y a pas besoin de contraints supplimentaires, mais vous pouvez reorienter avec une derniere contrainte)
-  - Appuyer sur OK
-**A noter** pour que l'assemblage reste fonctionnel même après le redemarage de Creo, il faut qu'absoulement toutes ces pièces se retrouvent dans le même dosser que l'assemblage (**Et pas de sous-doussers !**) De plus, on peut faire des assembkages avec d'autres assemblages (pour l'assemblage maître, l'assemblage emportè est consideré comme une pièce)
+<br/>
+
+Commençons par le commencement : la première pièce. 
+<br />
+La première pièce est la base de votre assemblage et elle est censée être fixe, donc c'est à vous de fixer cette pièce en premier.
+
+Pour cela, il faut :
+  
+  - Appuyer sur "Assemblage".
+  - Choisir la pièce dans la liste.
+  - Choisir l'origine de l'assemblage dans l'arbre de navigation.
+  - Choisir l'origine de la pièce dans l'arbre de navigation.
+  - Vérifier que la pièce a bien changé de couleur, car si la pièce est :
+    - Violette : elle n'est pas fixe (il y a des contraintes à ajouter).
+    - Orange : elle est fixe (il n'y a pas besoin de contraintes supplémentaires, mais vous pouvez la réorienter avec une dernière contrainte).
+  - Appuyer sur OK.
+**À noter !** Pour que l'assemblage reste fonctionnel même après le redémarrage de Creo, il faut que toutes les pièces se retrouvent dans le même dossier que l'assemblage (**et pas dans des sous-dossiers !** Sinon Creo va perdre les pièces). De plus, on peut faire des assemblages avec d'autres assemblages (pour l'assemblage maître, l'assemblage importé est considéré comme une pièce).
+
+Voici la démonstration : 
+
+ <br/><p align="center"><img alt="Assemblage1" src="img/35.gif"  width="80%"></p><br/>
+
+Quand la pièce de base sera fixé, on va ajouter les autres et c'est la qu'on va parler des "Réstrictions" (Contraints). C'est les liaisons entre deux pièces ou 2 références (Ex. les faces, les arrets, les axes etc) qui permettent de construire l'assemblage. 
+
+Au totale il y en a 10 mais les plus utilisés sont : 
+  - Coincident : quand les deux réferences sont collées 
+  - Distance : comme avec le à coincident mais en distance 
