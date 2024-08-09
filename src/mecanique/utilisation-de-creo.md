@@ -5,22 +5,22 @@
   **I) La Repertoire de travail**<br/>
   **II) Création d'une pièce et l'ouverture d'une existante**<br/>
   **III) L'Interface de Creo**<br/>
-    &nbsp; 1) L'Arbre de navigation<br/>
-              2) Le Modèle<br/>
-              3) L'Analyse<br/>
-              4) La Simulation en Direct, l'Annotation, les Outils et la Modélisation Flexible<br/>
-              5) L'Affichage<br/>
-              6) Les Applications<br/>
+    &nbsp; &nbsp; 1) L'Arbre de navigation<br/>
+    &nbsp; &nbsp; 2) Le Modèle<br/>
+    &nbsp; &nbsp; 3) L'Analyse<br/>
+    &nbsp; &nbsp; 4) La Simulation en Direct, l'Annotation, les Outils et la Modélisation Flexible<br/>
+    &nbsp; &nbsp; 5) L'Affichage<br/>
+    &nbsp; &nbsp; 6) Les Applications<br/>
   **IV) L'Utilisation de ces fonctions**<br/>
-              1) Les Plans et Les Axes<br/>
-              2) L'Esquisse<br/>
-              3) L'Extrusion et La Révolution<br/>
-              4) Les Arrondis et Les Chanfreins<br/>
-              5) La Répétition et La Symétrie<br/>
-              6) Mesurer<br/>
-              7) Les Apparences et Les Sections<br/>
-              8) Le Render Studio<br/>
-              9) L'Assemblage<br/>
+    &nbsp; &nbsp; 1) Les Plans et Les Axes<br/>
+    &nbsp; &nbsp; 2) L'Esquisse<br/>
+    &nbsp; &nbsp; 3) L'Extrusion et La Révolution<br/>
+    &nbsp; &nbsp; 4) Les Arrondis et Les Chanfreins<br/>
+    &nbsp; &nbsp; 5) La Répétition et La Symétrie<br/>
+    &nbsp; &nbsp; 6) Mesurer<br/>
+    &nbsp; &nbsp; 7) Les Apparences et Les Sections<br/>
+    &nbsp; &nbsp; 8) Le Render Studio<br/>
+    &nbsp; &nbsp; 9) L'Assemblage<br/>
   
 ## Intorduction
 Creo Parametric est un logiciel de CAD (Computer-aided design) d'entrée de gamme, c'est-à-dire qu'il est moins intuitif que ses collègues (ex. SolidWorks et Catia), mais la licence de Creo coûte moins cher et, ce qui est important, est fournie par notre école, INSA Toulouse. C'est pourquoi au Club Robot, on utilise Creo. Pour savoir comment installer et configurer Creo 9 avec le compte INSA, voir le document : [Installation de Creo](installation-de-creo.md).  
