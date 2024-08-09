@@ -1,7 +1,31 @@
 # Les fonctions principales à connaitre pour l'utilisation de Creo 9
+
+## Table de matières 
+  - Introduction
+  I) La Repertoire de travail
+  II) Création d'une pièce et l'ouverture d'une existante
+  III) L'Interface de Creo
+    1) L'Arbre de navigation
+    2) Le Modèle
+    3) L'Analyse
+    4) La Simulation en Direct, l'Annotation, les Outils et la Modélisation Flexible
+    5) L'Affichage
+    6) Les Applications
+  IV) L'Utilisation de ces fonctions
+    1) Les Plans et Les Axes
+    2) L'Esquisse
+    3) L'Extrusion et La Révolution
+    4) Les Arrondis et Les Chanfreins
+    5) La Répétition et La Symétrie
+    6) Mesurer
+    7) Les Apparences et Les Sections
+    8) Le Render Studio
+    9) L'Assemblage
+  
 ## Intorduction
 Creo Parametric est un logiciel de CAD (Computer-aided design) d'entrée de gamme, c'est-à-dire qu'il est moins intuitif que ses collègues (ex. SolidWorks et Catia), mais la licence de Creo coûte moins cher et, ce qui est important, est fournie par notre école, INSA Toulouse. C'est pourquoi au Club Robot, on utilise Creo. Pour savoir comment installer et configurer Creo 9 avec le compte INSA, voir le document : [Installation de Creo](installation-de-creo.md).  
-## Partie I) La Repertoire de travail
+
+## I) La Repertoire de travail
 La première chose à faire chaque fois que vous lancez votre Creo, c'est le choix du répertoire de travail, c'est-à-dire, vous devez lui indiquer manuellement l'emplacement de votre projet sur votre ordinateur, sinon il ne pourra pas travailler avec les assemblages. C'est une fonction assez pratique car elle permet de ne pas mélanger vos projets et fichiers si vous travaillez sur plusieurs sujets en parallèle.
 Pour cela un fois le Creo sera lancée, fermez le pub (oui c'est un popup automatique qui va sauter devant vous tout le temps) et cliquez sur le bouton "Sélectionner le répertoire de travail". Comme dans indiqué sur l'image : 
 
@@ -12,7 +36,7 @@ Petit conseil : ne mettez pas vos projets sur le bureau, car avec l'accumulation
   <br/><p align="center"><img src="img/2.png" width="60%"></p><br/>
   <br/><p align="center"><img src="img/3.png" width="60%"></p><br/>
 
-## Partie II) Création d'une pièce et l'ouverture d'une existante
+## II) Création d'une pièce et l'ouverture d'une existante
 Maintenant, quand Creo a compris où nous allons stocker nos fichiers, nous allons créer une pièce. Il faut appuyer sur "Nouveau" en haut à gauche, et vous allez voir la fenêtre suivante :
   <p align="center"><img alt="Création de pièce" src="img/4.png"  width="80%"></p> <br/>
 On laisse les selections de "pièce", "solide" sans modifications et dans "Nom du ficher" on écrit le nom de notre prècieuse pièce.
@@ -30,7 +54,7 @@ Maintenant, pour ouvrir une autre ficher, dans la même destination : "fichier" 
 Comme montré dans l'image : 
  <br/><p align="center"><img alt="Ouvrir un fichier" src="img/5.png"  width="80%"></p> <br/>
 
-## Partie III) L'Interface de Creo
+## III) L'Interface de Creo
 
 Ici, je vais donner la liste et l'emplacement dans Creo 9 des fonctions importantes à connaître et que l'on utilise le plus. Même si vous allez voir pas mal de critiques envers Creo dans ce guide, il faut quand même admettre que ce logiciel de CAO a beaucoup de fonctions et permet aux personnes qui le maîtrisent entièrement de réaliser de véritables chefs-d'œuvre. Mais pour être honnête, personne n'a envie de découvrir autant Creo (y compris moi). C'est pourquoi vous aurez les fonctions strictement nécessaires à notre niveau (c'est-à-dire pas d'étude de résistance et d'élasticité des matériaux, de propriétés aérodynamiques de nos pièces et encore moins des sculptures de type Blender, car ce n'est pas vraiment utile pour notre projet).
 
@@ -110,7 +134,7 @@ Dans les assemblages, on retrouve dans cette fenêtre une fonction expérimental
   - Câblage : permet de modéliser les câbles beaucoup plus agilement
  <br/><p align="center"><img alt="Câblage" src="img/12.png"  width="80%"></p> <br/>
 
-## Partie IV) L'Utilisation de ces fonctions
+## IV) L'Utilisation de ces fonctions
 ### 1) Les Plans et Les Axes
 Dans Creo, pour créer une nouvelle fonction, il faut la baser sur celles existantes. Autrement dit, c'est une chaîne de fonctions basées les unes sur les autres. Ce n'est pas différent pour les plans et les axes. Donc pour les créer, il faut :
   
