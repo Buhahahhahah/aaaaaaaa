@@ -34,6 +34,14 @@ Comme montré dans l'image :
 
 Ici, je vais donner la liste et l'emplacement dans Creo 9 des fonctions importantes à connaître et que l'on utilise le plus. Même si vous allez voir pas mal de critiques envers Creo dans ce guide, il faut quand même admettre que ce logiciel de CAO a beaucoup de fonctions et permet aux personnes qui le maîtrisent entièrement de réaliser de véritables chefs-d'œuvre. Mais pour être honnête, personne n'a envie de découvrir autant Creo (y compris moi). C'est pourquoi vous aurez les fonctions strictement nécessaires à notre niveau (c'est-à-dire pas d'étude de résistance et d'élasticité des matériaux, de propriétés aérodynamiques de nos pièces et encore moins des sculptures de type Blender, car ce n'est pas vraiment utile pour notre projet).
 
+Pour naviguer, on :
+
+  - Roule la molette de la souris : pour zoomer et dézoomer à l'endroit du positionnement du pointeur de la souris.
+  - Appuie sur la molette + bouge la souris : pour tourner l'angle de vision de la pièce ou de l'assemblage.
+  - Appuie sur la touche Shift (Maj) + appuie sur la molette + bouge la souris : pour déplacer l'angle de vision de la pièce ou de l'assemblage.
+
+**À noter !** La pièce elle-même ne bouge pas dans ce cas-là, mais l'angle sous lequel l'utilisateur voit la pièce.
+
 ### a) L'Arbre de navigation 
 L'Arbre de navigation se trouve à notre gauche, comme dans l'image : 
 
@@ -138,7 +146,9 @@ Voilà le GIF correspondant :
  <br/><p align="center"><img alt="Rectangles" src="img/15.gif"  width="80%"></p> <br/>
 
 #### III) Les Circles
-L'utilisation du cercle est très intuitive, il est défini par son centre et son rayon. Voilà un exemple :
+L'utilisation du cercle est très intuitive, il est défini par son centre et son rayon. 
+**À noter !** Les cercles créent des axes par défaut que l'on peut utiliser pour d'autres fonctions (cela sera abordé plus tard).<br/>
+Voilà un exemple :
 
  <br/><p align="center"><img alt="Circles" src="img/16.gif"  width="80%"></p> <br/>
 
@@ -221,4 +231,47 @@ Donc, pour faire une révolution (sans faire sauter des têtes de rois), il faut
 Et s'il faut faire un trou, comme pour l'extrusion, il suffit simplement d'appuyer sur "Enlever de la matière".
 Voici un exemple :
 
- <br/><p align="center"><img alt="Revolution" src="img/26.gif"  width="80%"></p><br/>
+ <br/><p align="center"><img alt="Revolution" src="img/25.gif"  width="80%"></p><br/>
+
+### b) Répétition et Symmétrie
+Puisque vous êtes en train de lire ce guide, j'ose supposer que vous faites partie de Club Robot. D'où, une autre supposition courageuse : vous n'aimez pas trop les actions répétitives. Si c'est le cas, je vous félicite, car Creo nous permet d'éviter de faire plusieurs fois la même action avec ces deux fonctions : "Répétition" et "Symétrie".
+
+#### I) Répétition
+Il y a plusieurs options de "Répétition", mais nous allons nous concentrer sur deux d'entre elles :
+
+  - Répétition de direction : très pratique pour couvrir une surface. Pour le faire, il faut :
+
+  1) Choisir la fonction à répéter (l'extrusion, la révolution, les arrondis, les symétries, et même les autres répétitions).
+  2) Appuyer sur "Répétition".
+  3) En haut à gauche, choisir le type : Direction.
+  4) Choisir la direction 1.
+  5) Choisir la direction 2 s'il y en a une (c'est pour couvrir toute la surface).
+  6) Donner le nombre de membres dans la direction 1 (c'est-à-dire combien de fois répéter la fonction dans cette direction, y compris la fonction initiale).
+  7) Idem pour la direction 2 s'il y en a une.
+  8) Donner l'espacement entre les membres (la distance entre chaque membre de la répétition).
+  9) Idem pour la direction 2 s'il y en a une.
+  10) Apprécier le résultat (ne pas abuser si vous avez de la trypophobie).
+
+Voici un exemple :
+
+ <br/><p align="center"><img alt="Repetition1" src="img/26.gif"  width="80%"></p><br/>
+
+
+  - Répetition d'axe : propagation autours d'une axe, très pratique pour les trous de vis. Pour le faire, il faut :
+
+    1) Choisir la fonction à répéter (l'extrusion, la révolution, les arrondis, les symétries, et même les autres répétitions).
+    2) Appuyer sur "Répétition".
+    3) En haut à gauche, choisir le type : Axe.
+    4) Choisir l'axe de Répétion
+    5) Choisir le nombre de membres de répétition
+    6) Choisir l'angle qui separe ces membres
+    7) Apprècier le résultat de votre travail
+       
+  **Important !** Ne pas faire plus de membres qu'il ne faut. Par exemple, si vous avez 90° d'angle entre les membres, ça ne sert à rien d'en mettre plus que 360°/90 = 4, car cela entraîne des superpositions de trous et des erreurs plus tard (pas fou-fou).
+
+Voici un exemple : 
+
+ <br/><p align="center"><img alt="Repetition2" src="img/27.gif"  width="80%"></p><br/>
+
+    
+
